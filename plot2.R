@@ -5,7 +5,7 @@ source("load_data.R")
 data <- loadData(includeDateTime = TRUE)
 
 ## Reduce the font size
-par(cex=0.75)
+par(cex = 0.75)
 
 ## Plot the Global Active Power against DateTime
 with(data, plot(DateTime, Global_active_power, type = "l", xlab = "", 

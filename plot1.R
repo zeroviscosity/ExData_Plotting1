@@ -5,7 +5,7 @@ source("load_data.R")
 data <- loadData()
 
 ## Reduce the font size
-par(cex=0.75)
+par(cex = 0.75)
 
 ## Plot a histagram of the Global Active Power
 hist(data$Global_active_power, col = "red", main = "Global Active Power",

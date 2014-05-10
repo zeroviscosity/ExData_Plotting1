@@ -5,7 +5,7 @@ source("load_data.R")
 data <- loadData(includeDateTime = TRUE)
 
 ## Reduce the font size
-par(cex=0.75)
+par(cex = 0.75)
 
 ## Plot the Energy sub metering against DateTime
 with(data, plot(DateTime, Sub_metering_1, type = "l", xlab = "", 
