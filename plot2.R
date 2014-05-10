@@ -5,8 +5,8 @@ source("load_data.R")
 data <- loadData(includeDateTime = TRUE)
 
 ## Plot the Global Active Power against DateTime
-with(data, plot(DateTime, Global_active_power, type = "l", 
-                xlab = "", ylab = "Global Active Power (kilowatts)"))
+with(data, plot(DateTime, Global_active_power, type = "l", xlab = "", 
+                ylab = "Global Active Power (kilowatts)"))
 
 ## Copy the plot to a PNG file
 dev.copy(png, file = "plot2.png")
