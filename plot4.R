@@ -12,7 +12,7 @@ par(cex = 0.65)
 
 ## Plot 1: Global Active Power against DateTime
 with(data, plot(DateTime, Global_active_power, type = "l", xlab = "", 
-                ylab = "Global Active Power"), cex = 0.5)
+                ylab = "Global Active Power"))
 
 ## Plot 2: Voltage against DateTime
 with(data, plot(DateTime, Voltage, type = "l", xlab = "datetime", 
