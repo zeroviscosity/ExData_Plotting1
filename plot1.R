@@ -1,7 +1,7 @@
 ## Pull in the loadData function
 source("load_data.R")
 
-## Load the data with the default settings
+## Load the data using the default settings
 data <- loadData()
 
 ## Plot a histagram of the Global Active Power
