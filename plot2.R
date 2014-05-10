@@ -4,7 +4,7 @@ source("load_data.R")
 ## Load the data with a DateTime column
 data <- loadData(includeDateTime = TRUE)
 
-## Plot a histagram of the Global Active Power
+## Plot the Global Active Power against DateTime
 with(data, plot(DateTime, Global_active_power, type = "l", 
                 xlab = "", ylab = "Global Active Power (kilowatts)"))
 
